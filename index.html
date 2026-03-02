@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KEMAUS ENTEREPRENEURS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "cBNjUVf9wRdRM-rcU",
+      });
+   })();
+</script>
+
+    <script src="./app.js" defer></script>
+    <script src="./email.js" defer></script>
+  </head>
+  <body>
+   
+    <nav class="container nav">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <h1 class="red"><img src="./assets/logo.jpg" alt="" /> KEMAUS ENTEREPRENEURS</h1>
+          </a>
+        </div>
+        <div class="menu" id="menu">
+          <ul>
+            <li><a href="#services" onclick="closeMenu()"> Services</a></li>
+            <li><a href="#about" onclick="closeMenu()">About Us</a></li>
+            <li><a href="#payment" onclick="closeMenu()">Payment</a></li>
+            
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            
+          </ul>
+        </div>
+        <i class="ph ph-list menu_open" onclick="openMenu()" id="open_menu"></i>
+        <i class="ph ph-x menu_close" onclick="closeMenu()" id="close_menu"></i>
+      </div>
+    </nav>
+
+    <div class="hero_container container">
+      <div class="hero_content">
+        <div class="hero_left" data-aos="fade-right" data-aos-duration="1000">
+          <h1>Design <span class="green">Print</span> and Brand with us</h1>
+          <p>
+             We produce any form of print regardless of the size, quality, material texture, shape, we also source
+ and supply quality stationery and equipment to various officers.
+ We have the latest machine technology to deliver the best quality of whatever printing or branding 
+project.
+          </p>
+          <a href="#contact">Contact us</a>
+        </div>
+        <div class="hero_right" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/logo.jpg" class="hero_img" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <section class="mission container">
+      <div class="vision-values" data-aos="zoom-out" data-aos-duration="1000">
+        <h3>Discover Kemaus Vision and Values</h3>
+        <p>
+           Kemaus Enterepreneurs is a registered Business that produce quality indoors and outdoors communication material
+ for different communication needs. Kemaus Enterepreneurs has a vast experience in the printing and branding, 
+Kemaus having  been around since the years 2016 and still ahead of the rest in the technology and print innovations
+        </p>
+      </div>
+    </section>
+
+    <section class="services container" id="services">
+      <div class="title" data-aos="fade-down" data-aos-duration="1000">
+        <h2>Our Services</h2>
+        <p>Touch of Excellence</p>
+      </div>
+
+      <div class="services-container">
+        <!-- Service Card 1 -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/logo.jpg" alt="Logo Design" />
+          <h3>Logo Design</h3>
+          <p>
+            Create unique and memorable logos that represent your brand
+            identity.
+          </p>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/waterbottle bd.jpg" alt="Branding" />
+          <h3>Water Bottle Branding</h3>
+          <p>
+            Develop a cohesive brand identity with colors, typography, and
+            visuals.
+          </p>
+        </div>
+         <!-- Service Card 11 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/largeformat print.jpg" alt="Illustration" />
+          <h3>Large Format Printing</h3>
+          <p>
+            Do you have an event to promote, or wish to advertise your products & services on a large scale?
+ Then, large format printing is what you need! Whether you simply require a large posters,
+ a pull up banner, office displays, vehicle graphics or building facades. 
+Kemaus Enterepreneurs provide fantastic help and advice
+          </p>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/prints.jpg" alt="Printing" />
+          <h3>Printing</h3>
+          <p>
+            High-quality printing services for business cards, brochures, and
+            more.
+          </p>
+        </div>
+        <!-- Service Card 4 -->
+        <div class="service-card"data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/business cards.jpg" alt="Packaging Design" />
+          <h3>Business cards</h3>
+          <p>Design eye-catching business cards tailored to your business needs.</p>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card"data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/packg.jfif" alt="Packaging Design" />
+          <h3>Packaging Design</h3>
+          <p>Design eye-catching packaging that stands out on the shelves.</p>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="service-card"data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/roll ups.jpg" alt="Web Design" />
+          <h3>Roll up Design</h3>
+          <p>
+            Build modern Rollups with tailored to your business needs.
+          </p>
+        </div>
+        <!-- Service Card 5 -->
+        <div class="service-card"data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/engraving services.jpg" alt="Web Design" />
+          <h3>Engraving Services</h3>
+          <p>
+            We do the best Engraving services for every item as per customer needs with our laser machine
+          </p>
+        </div>
+        <!-- Service Card 5 -->
+        <div class="service-card"data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/reflectors.jpg" alt="Web Design" />
+          <h3>Reflectors and PPEs </h3>
+          <p>
+            We provide Reflectors and Personal Protective Equipments for Sites tailored to your business needs.
+          </p>
+        </div>
+        <!-- Service Card 4 -->
+        <div class="service-card"data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/cards.jpg" alt="Packaging Design" />
+          <h3>Wedding cards</h3>
+          <p>Design eye-catching cards that stands out on the shelves.</p>
+        </div>
+ <!-- Service Card 3 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/digital printing.jpg" alt="Printing" />
+          <h3>Digital Printing</h3>
+          <p>
+            High-quality printing services for business cards, brochures, and
+            more.
+          </p>
+        </div>
+        <!-- Service Card 9 -->
+        <div class="service-card"data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/41.jpg" alt="Web Design" />
+          <h3> Cards</h3>
+          <p>
+             Whatever the occasion, get the word out with a custom invitation or announcement. 
+We're proud to offer a wide range of themes, designs and personalization options
+ for a birthday parties, baby showers, graduation celebrations and more.
+          </p>
+        </div>
+        <!-- Service Card 6 -->
+        <div class="service-card" data-aos="fade-right" data-aos-duration="1000">
+          <img src="./assets/46 - Copy.jpg" alt="Social Media Design" />
+          <h3>Social Media Design</h3>
+          <p>Create engaging social media posts and banners for your brand.</p>
+        </div>
+        
+
+        <!-- Service Card 7 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/wallbranding.jpg" alt="Illustration" />
+          <h3>Wall Branding</h3>
+          <p>
+            Custom illustrations for books, websites, and marketing materials.
+          </p>
+        </div>
+<!-- Service Card 7 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/promo.jpg" alt="Branding" />
+          <h3>Promotional Items </h3>
+          <p>
+             Branding is an important element today with companies looking to have unique customized
+ materials and merchandises.We give a significant meaning as we keep pace with future growth of the company.
+
+          </p>
+        </div>
+        <!-- Service Card 8 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/vhlbranfing.jpg" alt="Vehicle Branding" />
+          <h3>Vehicle Branding</h3>
+          <p>
+            Branding for buses, lorries, matatus, and tuktuks to make your brand
+            stand out.
+          </p>
+        </div>
+        <!-- Service Card 14 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/1000550215.jpg" alt="Vehicle Branding" />
+          <h3>Outdoor Branding</h3>
+          <p> We have a range of outdoor branding  for corporate functions to present you,
+ and shall help you reach  your target audience with style and integrity.
+          </p>
+        </div>
+         <!-- Service Card 8 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/manzil.jpg" alt="Vehicle Branding" />
+          <h3>3D Signages</h3>
+          <p>
+            Custom vinyl window graphics or decals draw attention to your business and
+ attract customers. Clings to vinyl stickers, transform your store-front into a
+ tasteful marketing tool.
+          </p>
+        </div>
+         <!-- Service Card 8 -->
+        <div class="service-card" data-aos="fade-left" data-aos-duration="1000">
+          <img src="./assets/stamps.jpg" alt="Vehicle Branding" />
+          <h3>Rubber Stamps</h3>
+          <p>
+          We create stylish, creative and security solutions for all your stamping needs.
+ A small, dedicated and enthusiastic team with a wealth of experience under our belt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about container" id="about">
+      <img src="./assets/MME.jpeg" alt="Design Process" data-aos="fade-up" data-aos-duration="1000"/>
+      <div class="content" data-aos="fade-down" data-aos-duration="1000">
+        <h2>Our Comprehensive Design Process</h2>
+        <p>
+           We have efficient (supply) 
+and logistics team that ensure our deadlines
+ are always met in terms of prompt delivery.
+ Kemaus Enterepreneurs works hard
+ to combine marketing talent and
+ exceptional design ideals 
+with outstanding customer service
+ to build long-term partnerships.
+        </p>
+        <ul>
+          <li>Initial Consultation: Understanding your needs and goals.</li>
+          <li>Concept Development: Crafting unique design ideas.</li>
+          <li>
+            Final Delivery: Ensuring satisfaction with the completed project.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="clientele container" id="clientele">
+      <div class="title" data-aos="fade-down" data-aos-duration="1000">
+        <h2>Our Clientele</h2>
+        <p>
+          We've worked with some of the most renowned brands and organizations.
+        </p>
+      </div>
+      <div class="clientele_container" data-aos="fade-up" data-aos-duration="1000">
+        <img src="./assets/KJL.jpeg" alt="" />
+        <img src="./assets/BS.jpeg" alt="" />
+        <img src="./assets/CWW C.jpeg" alt="" />
+        <img src="./assets/GBGG.jpeg" alt="" />
+        <img src="./assets/GGG.jpeg" alt="" />
+        <img src="./assets/KJL.jpeg" alt="" />
+        <img src="./assets/ccjj.jpeg" alt="" />
+        <img src="./assets/fope.jpeg" alt="" />
+        <img src="./assets/hsl.jpeg" alt="" />
+        <img src="./assets/pks.jpeg" alt="" />
+        <img src="./assets/ktvc.jpeg" alt="" />
+        <img src="./assets/FFG.jpeg" alt="" />
+        <img src="./assets/FGGFS.jpeg" alt="" />
+        <img src="./assets/HC.jpeg" alt="" />
+        <img src="./assets/qff.jpeg" alt="" />
+        <img src="./assets/picture1.jpg" alt="" />
+        <img src="./assets/picture2 - Copy.png" alt="" />
+        <img src="./assets/ccjj.jpeg" alt="" />
+        <img src="./assets/fope.jpeg" alt="" />
+        <img src="./assets/hsl.jpeg" alt="" />
+        <img src="./assets/ktvc.jpeg" alt="" />
+        
+        
+        <img src="./assets/ERE.jpeg" alt="" />
+        <img src="./assets/ZD.jpeg" alt="" />
+        <img src="./assets/SSAV.jpeg" alt="" />
+        <img src="./assets/MCS.jpeg" alt="" />
+        <img src="./assets/MAC.jpeg" alt="" />
+        <img src="./assets/211.jpeg" alt="" />
+        <img src="./assets/444.jpeg" alt="" />
+        
+      </div>
+    </section>
+
+    <section class="container">
+
+      <div class="slider-container">
+        <div class="title" data-aos="fade-down" data-aos-duration="1000">
+        <h2>Our Latest Work</h2>
+        <p>Check out some of our latest projects.</p>
+      </div>
+       <!-- Swiper Navigation Buttons -->
+       <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./assets/notebks.jpg" alt="Image 1" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="./assets/ntbkspens.jpg" alt="Image 2" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="./assets/plaque.jpg" alt="Image 3" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="./assets/table.jpg" alt="Image 4" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="./assets/prints.jpg" alt="Image 5" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="./assets/MCS.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="assets/KH.jpeg" alt="Image 7" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="assets/SAAA.jpeg" alt="Image 8" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="assets/EEEE.jpeg" alt="Image 9" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="assets/SSSSSSA.jpeg" alt="Image 10" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="assets/SEF.jpeg" alt="Image 11" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="assets/RS.jpeg" alt="Image 12" onclick="openLightbox(this)"></div>
+            <div class="swiper-slide"><img src="./assets/NTHG.jpeg" alt="Image 13" onclick="openLightbox(this)"></div>
+             <div class="swiper-slide"><img src="./assets/111.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+              <div class="swiper-slide"><img src="./assets/121.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+               <div class="swiper-slide"><img src="./assets/1212.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+                <div class="swiper-slide"><img src="./assets/DFD.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+                 <div class="swiper-slide"><img src="./assets/DFDDD.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+                  <div class="swiper-slide"><img src="./assets/GCS.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+                   <div class="swiper-slide"><img src="./assets/LL.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+                    <div class="swiper-slide"><img src="./assets/receiptbks.jpg" alt="Image 6" onclick="openLightbox(this)"></div>
+                     <div class="swiper-slide"><img src="./assets/promotional.jpg" alt="Image 6" onclick="openLightbox(this)"></div>
+                      <div class="swiper-slide"><img src="./assets/12.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+                       <div class="swiper-slide"><img src="./assets/DFD.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+                        <div class="swiper-slide"><img src="./assets/FT.jpeg" alt="Image 6" onclick="openLightbox(this)"></div>
+        </div>
+    </div>
+       <!-- Swiper Pagination (Dots) -->
+       <div class="swiper-pagination"></div>
+       <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    </div>
+  </section>
+
+    <section class="design container">
+      <div class="design-container">
+
+        <h2 data-aos="fade-left" data-aos-duration="1000">Mastery in Leading Design Software</h2>
+        <div class="right" data-aos="fade-right" data-aos-duration="1000">
+          <p>At Kemaus, we excel in using industry-leading design software to bring your creative visions to life. Our expertise spans across various platforms, ensuring precision and innovation in every project we undertake.</p>
+          <div class="tools">
+            <span>
+              <h3>Adobe Suite</h3>
+              <p>Proficient in Photoshop, Illustrator, and CorelDraw for stunning visuals.</p>
+            </span>
+          <span>
+              <h3>3D & Signages</h3>
+              <p>Expertise in 3D signages designs  for companies good impressions.</p>
+            </span>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="payment container" id="payment">
+      <div class="title" data-aos="fade-up" data-aos-duration="1000">
+        <h2>Payment Options</h2>
+        <p>Flexible payment options to support our services.</p>
+      </div>
+      <div class="payment-options" data-aos="zoom-out" data-aos-duration="1000">
+        <img src="./assets/payment.jpg" alt="">
+        <div class="payment-option">
+          <h3>Equity Bank</h3>
+          
+          <span>
+            <p>Business Number</p>
+            <h2>247247</h2>
+          </span>
+          <span>
+            <p>Account Number</p>
+            <h2>360444</h2>
+            </span>
+            <p>Incase of any issues with payment, please contact us on <a href="tel:0743360444" class="green-text">0743360444</a> or <a href="tel:0723003261" class="green-text">0723003261</a></p>
+
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="title" data-aos="fade-down" data-aos-duration="1000">
+        <h2>Client Commendations</h2>
+        <p>
+          Hear what our clients have to say about their experience with
+         Kemaus Enterepreneurs design services.
+        </p>
+      </div>
+      <div class="testimonials_container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="testimonial">
+          <h2>HOTEL JOFA</h2>
+          <p>
+            Working with Kemaus was a game-changer for our brand. Their
+            creativity and attention to detail transformed our vision into
+            reality.
+          </p>
+         <img src="./assets/KJL.jpeg" alt="MANZIL" />
+
+          <span> Hotel Manager</span>
+        </div>
+        <div class="testimonial">
+          <h2>BANSI SUPERMARKET</h2>
+          <p>
+            Kemaus' design process was seamless and efficient. They
+            understood our needs and delivered exceptional results that exceeded
+            our expectations.
+          </p>
+         
+          <img src="./assets/BS.jpeg"  />
+
+          <span>Manager</span>
+        </div>
+        <div class="testimonial">
+          <h2>GODKWER SUBCOUNTY HOSPITAL </h2>
+          <p>
+            I’m thrilled to commend Kemaus Enterprises for their exceptional work in crafting our 3D signage. The innovative design, impeccable craftsmanship, and vibrant illumination have truly elevated our brand’s presence
+          </p>
+             <img src="./assets/MME.jpeg"  />
+          <span> Hospital Admin</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <div class="title" data-aos="fade-right" data-aos-duration="1000">
+        <h2>Contact Us</h2>
+        <p>
+          Fill out the form below and we'll get back to you with a response.
+        </p>
+      </div>
+
+      <div class="contacts_container">
+        <div class="contact_container">
+          <div class="left" data-aos="fade-left" data-aos-duration="1000">
+            <h3>Want to work with us?</h3>
+            <h1>Let's talk!</h1>
+           
+                <p> <i class="ph ph-map-pin"></i>
+                 <a href="location:Migori town,Behind Co-operative Bank">Migori town,Behind Cooperative Bank</a></p>
+              <i class="ph ph-envelope-simple"></i>
+              <a href="mailto:kemaus2@gmail.com">kemaus2@gmail.com</a></p>
+            <p><b><i class="ph ph-phone"></b></i> 
+              <a href="tel:0734000666 /0723003261/  074336044">0734000666/0743360444/0723003261 </a></p>
+
+          </div>
+          <div class="right" data-aos="fade-right" data-aos-duration="1000">
+            <form id="contact-form" onsubmit="contact(event)">
+              <label>Name</label>
+              <input type="text" id="user_name" name="user_name" required>
+              
+              <label>Email</label>
+              <input type="email" id="user_email" name="user_email" required>
+              
+              <label>Message</label>
+              <textarea id="message" name="message" required></textarea>
+              
+              <input type="submit" id="submit-btn" value="Send">
+              
+              
+          </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="loader">Sending...</div>
+    <p id="success-message">Email sent successfully!</p>
+    <p id="error-message">Failed to send email. Please try again.</p>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Company Info -->
+        <div class="footer-section">
+          <h3>Kemaus Enterepreneurs</h3>
+          <p>Touch of Excellence.</p>
+          <p>
+             <p> <i class="ph ph-map-pin"></i>
+                 <a href="location:Migori town,Behind Co-operative Bank">Migori town,Behind Cooperative Bank</a></p>
+           
+          <p><i class="ph ph-phone"></i> <a href="tel:0743360444 / 0723003261/0734000666">0743360444 / 0723003261/0734000666</a></p>
+          
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+          <a href="https://www.facebook.com/kemausent" target="_blank"><i class="ph ph-facebook-logo"></i></a>
+     <a href="https://wa.me/254743360444?text=Hello%20KEMAUS%20ENTEREPRENUERS%2C%20I%20am%20interested%20in%20branding%20services" 
+   target="_blank" 
+   rel="noopener">
+  <i class="ph ph-whatsapp-logo"></i>
+</a>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <div class="footer-bottom">
+        <p>© 2026 KEMAUS ENTEREPRENEURS.</p>
+          <p> All rights reserved.</p>
+        <p class="Chachoo"> <a href="" target="_blank">Chachoo Soln</a></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
