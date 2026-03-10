@@ -374,7 +374,7 @@ ul {
 
 .swiper-slide img {
     width: 100%;
-    height: 75%;
+    height: 50%;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -983,5 +983,6 @@ footer {
 
 
   }
+
 
 
